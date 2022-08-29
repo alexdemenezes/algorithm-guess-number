@@ -20,6 +20,7 @@ def guess_number():
             )
         if number_chosen == 's':
             print('\neu falei que conseguiria...')
+            founded_number = True
             break
         else:
             chosen_option = input(
